@@ -1,0 +1,133 @@
+!!!!!!VERY WIP DO NOT USE YET!!!!!!
+!!!!!DO NOT CONTACT MOD AUTHORS ABOUT ANY ISSUES FOLLOWING THE USE OF THIS RESOURCE!!!!!
+
+[Incompatible Mods]
+as far as i know you will encounter issues if you run these mods alongside this pack/configuration
+-ItemInfo
+[Syntax]
+
+(Mod Author) - (Mod Name) - (Mod Version) - (Mod URL)
+
+!!!!!DO NOT CONTACT MOD AUTHORS ABOUT ANY ISSUES FOLLOWING THE USE OF THIS RESOURCE!!!!!
+IF YOU INSTALL THIS YOU DO SO AT YOUR OWN RISK AND NO SUPPORT IS OFFERED DUE TO THE SCALE OF THE PROJECT
+IT IS NOT AND NEVER WILL BE UNDER ANY CIRCUMSTANCES A MOD AUTHORs RESPONSIBILITY NOR OBLIGATION TO HELP YOU 
+(and frankly i probably don't have the headspace either, just getting everything installed, tested, and tweaked, 
+before even starting to write this, took a little under a week ;-;)
+
+[*Raw list in prep for proper compilation*]
+DO NOT USE THIS AS A BASIC INSTALLATION LIST YOU WILL HAVE PROBLEMS AND THE MOD AUTHORS WILL NOT BE ABLE TO HELP YOU
+DO NOT UNDER ANY CIRCUMSTANCES CONTACT MOD AUTHORS REGARDING ISSUES WITH ANY OF THE INCLUDED MODS
+(OR ANY YOU MAY CHOOSE TO ADD) IF YOU FOLLOW THIS GUIDE
+PLEASE JUST DON'T (seriously they get enough $#!7 from enough else already)
+
+READ THE ABOVE IF YOU HAVEN'T ALREADY
+DO IT
+SERIOUSLY GO READ IT FIRST
+
+[*"Raw" list/Rev.1*]
+Notable External Changes & Configurations:
+ [External] 
+	SVM (Server Value Modifier [by GhostFenixx]):
+    Preset: "Ducc's Dastardly Deets V3":
+      
+			[Inventory & Items]:
+			-All Items Examined [Including Keys (some exceptions apply with modded items)
+			-Armored Rigs + Armour Allowed
+			-Backpack Restrictions Removed
+			-Secure Container Filters Removed
+			-In-Raid Restrictions Removed
+			-"Can't be dropped in raid" Tag Removed
+			-EXP for Picking Up Items Greatly Reduced
+			-EXP for Examined Items Greatly Reduced
+			-Infinite Use Keys + Keycards (except for Single-use + Marked Room Keys)
+			
+
+			
+			[Hideout]:
+			-Regen - Removed (no more resting up a broken leg)
+			-Stash Size - Greatly Increased for ALL Versions 
+			[125(standard), 150(Left Behind), 175(Prepare to Escape), 200 (Edge of Darkness), 250(Unheard Edition)] 
+			(based on my personal preference of not enjoying the constant need for excessive stash management or liquidation)
+			-water filter consumption - reduced
+			-time spent to create filtered water - Reduced
+			-time required to generate a bitcoin - Reduced
+			-Hideout Production Time - Greatly Reduced
+			-Hideout Construction Time - Greatly Reduced
+			-Scav Case Time - Greatly Reduced
+			-Cultist Circle Time - Greatly Reduced
+			
+			[Traders]
+			-Quest Reward Redemption Time - Increased to Max (144 Hours)
+			-Timer Removed For New Quests
+			-Selling Markup Balanced across traders to encourage Diversity of sales to more traders
+			based on the type of goods given most are already restricted by category enough to atleast somewhat accomodate this,
+			and in an attempt to balance Reputation gain.
+
+			[Traders Services]
+			-Unlocked Each Side's Apparel
+			-Increased Insurance Storage Lifespan
+			-Faster Insurance Return
+			-Less Reliable Insurance
+			-Insurance gets Cheaper as Trader Level Increases
+			-Healing gets Cheaper as Trader Level Increases			
+			-Less Forgiving Initial Healing Discount
+			(Free until Lvl 5, or >15 Raids)
+			-Increased Chance of Attachments being stripped (88%)
+			
+			[loot] (OFF)
+			(disabled in favour of Lots of Loot Redux + Airdrop Config Options)
+
+			[Player and Skills] (OFF)
+			(disabled in favour of Easy Skill Options BepInEx Plugin [see line (????)])
+
+			[Raid Settings] (ON)
+			-Safe Exit Enabled
+			-No 'Survived' run requirements
+			-Additional Raid Time in minutes: 120
+			-All chance based extracts always available
+			-Default extracts available from any side
+			-Armour Allowed on Climbing Extracts
+			-Restrictions Removed on Backpack related Extracts
+			-Car Extraction Time Reduced to 5 seconds
+			-Raid Deployment Time Reduced to 5 seconds
+			-BTR is always interactable
+
+			[Flea Market]
+			(disabled in favour of Live Flea Prices + Flea Market Quests + Delayed Flea Sales)
+
+			[Repeatable Quests]
+			(disabled in favour of (?) )
+			
+
+			[Case Space Manager]
+			-most if not all cases reworked to be IMO more appropriate/hardcore sizes internally.
+
+
+			[Player SCAV]
+			(Need to rework/ might be a conflict so disabled for now)
+
+			[SCAV and Bosses]
+			(Disabled in favour of SWAG+DONUTS)
+
+
+			[AI PMC]
+			(Disabled in favour of SWAG+DONUTS)
+
+	[Internal]
+		[BepInEx]
+			[]
+
+
+
+
+
+
+
+[*Checked*]
+
+
+
+[Final]
+
+
+
