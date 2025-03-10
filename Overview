@@ -31,17 +31,18 @@ Notable External Changes & Configurations:
     Preset: "Ducc's Dastardly Deets V3":
       
 			[Inventory & Items]:
-			-All Items Examined [Including Keys (some exceptions apply with modded items)
+			-All Items Examined [Including Keys] (some exceptions apply with modded items)
 			-Armored Rigs + Armour Allowed
 			-Backpack Restrictions Removed
 			-Secure Container Filters Removed
 			-In-Raid Restrictions Removed
 			-"Can't be dropped in raid" Tag Removed
-			-EXP for Picking Up Items Greatly Reduced
-			-EXP for Examined Items Greatly Reduced
+			-EXP for Picking Up Items Greatly Reduced (x0.01)
+			-EXP for Examined Items Greatly Reduced (x0.01)
+			-GP Coin Stack Per Cell reduced (20 -> 10)
 			-Infinite Use Keys + Keycards (except for Single-use + Marked Room Keys)
+				-Amount of uses can't go over 50
 			
-
 			
 			[Hideout]:
 			-Regen - Removed (no more resting up a broken leg)
@@ -70,7 +71,7 @@ Notable External Changes & Configurations:
 			-Less Reliable Insurance
 			-Insurance gets Cheaper as Trader Level Increases
 			-Healing gets Cheaper as Trader Level Increases			
-			-Less Forgiving Initial Healing Discount
+			-Less Forgiving Healing Discount
 			(Free until Lvl 5, or >15 Raids)
 			-Increased Chance of Attachments being stripped (88%)
 			
