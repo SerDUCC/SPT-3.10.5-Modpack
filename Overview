@@ -1,6 +1,27 @@
 !!!!!!VERY WIP DO NOT USE YET!!!!!!
 !!!!!DO NOT CONTACT MOD AUTHORS ABOUT ANY ISSUES FOLLOWING THE USE OF THIS RESOURCE!!!!!
 
+[Increase SPT Performance]
+(independent of this modlist, EVERYONE SHOULD USE THIS!!!)
+	-navigate to and open: (spt install folder)\EscapeFromTarkov_Data\boot.config 
+	-modify boot.config to include lines 14-22 of this document, and save it.
+		[IMPORTANT NOTE]: switch "job-worker-count=11" to a value relevant to your system (the values below are from my own configuration, my CPU has 12 Logical cores so i've entered 11) 
+		(Try {your CPU's Logical core count -1} to start. If there is no noticeable increase or performance degrades, try {your CPU's Physical core count -1} 
+		https://www.intel.com/content/www/us/en/support/articles/000029254/processors.html#description
+		(The above site is an official Intel resource, applicable for any windows user, and can assist with identifying your core count.)
+			(Editorial note: indentation format ignored ahead briefly during code snippet for ease of copy/paste for end user)
+
+gfx-enable-gfx-jobs=1
+gfx-enable-native-gfx-jobs=1
+gfx-disable-mt-rendering=1
+wait-for-native-debugger=0
+vr-enabled=0
+hdr-display-enabled=0
+gc-max-time-slice=10
+job-worker-count=11
+single-instance=
+
+
 [Incompatible Mods]
 as far as i know you will encounter issues if you run these mods alongside this pack/configuration
 -ItemInfo
